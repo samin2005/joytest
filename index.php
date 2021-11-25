@@ -3,12 +3,12 @@ ini_set('display_errors', 'Off');
 error_reporting(0);
 session_start();
 
- if(time() - $_SESSION['timefour'] < 15 || !isset($_SESSION['timefour']))
- {
- 	echo "you did not complete the linkvertise";
- 	// echo "<meta http-equiv='Refresh' Content='4;url=https://keyauth.com/snowwy/'>"; 
- 	return;
- }
+//  if(time() - $_SESSION['timefour'] < 15 || !isset($_SESSION['timefour']))
+//  {
+//  	echo "you did not complete the linkvertise";
+//  	echo "<meta http-equiv='Refresh' Content='4;url=https://keyauth.com/snowwy/'>"; 
+//  	return;
+//  }
 
 $ch = curl_init("https://keyauth.com/api/seller/?sellerkey=010c4da44ae7db416a21664ad2ed2f60&type=add&expiry=0.041666666666667&mask=XXXXXX-XXXXXX-XXXXXX-XXXXXX-XXXXXX-XXXXXX&level=1&amount=1&format=text");
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
