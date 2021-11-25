@@ -36,6 +36,7 @@ $_SESSION['timefour'] = NULL;
             let content = e;
             if (e instanceof HTMLElement) {
             		content = e.innerHTML;
+                    print(content);
             }
             tempItem.setAttribute('value',content);
             document.body.appendChild(tempItem);
