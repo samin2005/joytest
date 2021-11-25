@@ -12,7 +12,7 @@ session_start();
 
 $_SESSION['timetwo'] = time();
 
-header("Refresh: 5; URL=https://tei.ai/LykP5VF");  
+header("Refresh: 5; URL=https://bit.ly/3l8ruUE");  
 // print("Powered by KeyAuth.com login system");
 ?>
 
