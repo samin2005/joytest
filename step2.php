@@ -13,7 +13,7 @@ if(time() - $_SESSION['time'] < 15 || !isset($_SESSION['time']))
 $_SESSION['timetwo'] = time();
 
 header("Refresh: 5; URL=https://link-to.net/165411/FnAimbot");  
-print("Powered by KeyAuth.com login system");
+// print("Powered by KeyAuth.com login system");
 ?>
 
 <html>

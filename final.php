@@ -20,7 +20,7 @@ $_SESSION['time'] = NULL;
 $_SESSION['timetwo'] = NULL;
 $_SESSION['timethree'] = NULL;
 $_SESSION['timefour'] = NULL;
-print("Powered by KeyAuth.com login system");
+// print("Powered by KeyAuth.com login system");
 ?>
 
 <html>

@@ -6,7 +6,7 @@
     $_SESSION['time'] = time();
 
     header("Refresh: 5; URL=https://link-to.net/165411/cheatooo");
-    print("Powered by KeyAuth.com login system");
+    // print("Powered by KeyAuth.com login system");
 ?>
 
 

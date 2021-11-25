@@ -13,7 +13,7 @@ if(time() - $_SESSION['timetwo'] < 15 || !isset($_SESSION['timetwo']))
 $_SESSION['timethree'] = time();
 
 header("Refresh: 5; URL=https://link-to.net/165411/Discord");  
-print("Powered by KeyAuth.com login system");
+// print("Powered by KeyAuth.com login system");
 ?>
 
 <html>
